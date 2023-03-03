@@ -18,5 +18,8 @@ The value of $X_{sp}$ is either 0 or 1. $X_{sp}$ =1 means student s is assigned 
 
 ## Objective and Constrains
 #### objective function
-$max(\sum_{s=1}^{n} \sum_{p=1}^{m})$
-$\sum_{i=1}^{10} t_i$
+$$max(\sum_{s=1}^{n} \sum_{p=1}^{m} (P_{sp} \cdot X_{sp} + h_{sp}))$$
+
+$$h_{sp} = X_{sp} \cdot (\sum_{s'=1}^n X_{s'p} \cdot F_{s,s'})$$
+
+#### Constrains
