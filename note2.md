@@ -28,3 +28,6 @@ In our problem,
 $$h_{sp} = X_{sp} \cdot (\sum_{s'=1}^n X_{s'p} \cdot F_{s,s'}) = \sum_{s'=1}^n X_{sp} \cdot X_{s'p} \cdot F_{s,s'} = \sum_{s'=1}^n Y_{sps'p} \cdot F_{s,s'}$$ <br>
 We know that, 
 $$f(X_{LP\\{0,1\\}}^* , Y_{LP\\{0,1\\} }^* ) = g(X_{QP\\{0,1\\}}^* )$$
+$$f(X_{LP[0,1]}^* , Y_{LP[0,1] }^* ) \geq g(X_{QP[0,1]}^* ) \geq g(X_{LP[0,1]}^* )$$ <br>
+It is not sure whether
+$$g(X_{QP[0,1]}^* ) = g(X_{LP[0,1]}^* )$$
